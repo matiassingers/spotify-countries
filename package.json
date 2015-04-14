@@ -1,0 +1,33 @@
+{
+  "name": "spotify-countries",
+  "version": "0.1.0",
+  "description": "list of countries that Spotify is available in",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "spotify-countries": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/spotify-countries"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/spotify-countries/issues"
+  },
+  "homepage": "https://github.com/matiassingers/spotify-countries",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
