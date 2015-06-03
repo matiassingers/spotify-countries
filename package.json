@@ -20,6 +20,11 @@
     "type": "git",
     "url": "https://github.com/matiassingers/spotify-countries"
   },
+  "keywords": [
+    "spotify",
+    "countries",
+    "availability"
+  ],
   "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
   "license": "MIT",
   "bugs": {
