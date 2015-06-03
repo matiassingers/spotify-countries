@@ -1,14 +1,16 @@
 'use strict';
 
-var assert = require('assert');
 var fs = require('fs');
+var assert = require('assert');
 var nock = require('nock');
 
 var spotifyCountries = require('./');
 
 var scope = nock('https://www.spotify.com')
   .get('/select-your-country/')
-  .replyWithFile(200, __dirname + '/fixtures/response.html');
+  .reply(200, function(uri, requestBody, cb) {
+    fs.readFile(__dirname + '/fixtures/response.html' , cb);
+  });
 
 describe('spotifyCountries', function() {
   var results;
