@@ -26,8 +26,12 @@
     "url": "https://github.com/matiassingers/spotify-countries/issues"
   },
   "homepage": "https://github.com/matiassingers/spotify-countries",
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "*"
+  "dependencies": {
+    "columnify": "1.5.1",
+    "country-list": "0.0.3",
+    "emoji-flags": "1.1.0",
+    "lodash.sortby": "3.1.4",
+    "lodash.uniq": "3.2.1",
+    "osmosis": "0.0.6"
   }
 }
