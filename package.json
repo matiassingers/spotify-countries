@@ -1,6 +1,6 @@
 {
   "name": "spotify-countries",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "list of countries that Spotify is available in",
   "main": "index.js",
   "scripts": {
