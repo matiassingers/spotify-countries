@@ -30,7 +30,7 @@ $ npm install --global spotify-countries
 ```sh
 $ spotify-countries --help
 
-  list of countries that Stripe is available in, and their current status
+  list of countries that Spotify is available in
 
   Example
     spotify-countries
